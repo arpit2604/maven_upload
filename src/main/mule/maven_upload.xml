@@ -9,6 +9,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:listener-config>
 	<flow name="maven_uploadFlow" doc:id="b7b564ab-0ef3-4661-b39c-3e7a929001c7" >
 		<http:listener doc:name="Listener" doc:id="3764a656-1d0e-4143-9ca7-07ab20a14095" config-ref="HTTP_Listener_config" path="/say-hellow"/>
-		<set-payload value='#["welcome to mule"]' doc:name="Set Payload" doc:id="5a02706c-8e40-4966-8040-4ffd70c09690" />
+		<set-payload value='#["welcome to mule 4"]' doc:name="Set Payload" doc:id="5a02706c-8e40-4966-8040-4ffd70c09690" />
 	</flow>
 </mule>
